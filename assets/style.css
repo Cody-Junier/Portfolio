@@ -9,24 +9,65 @@ header h1 {
     background-position: center;
     display: flex;
     flex-wrap: wrap;
+    font-size: 100px;
+    font-weight: bold;
+    text-decoration: underline rgba(27, 2, 117, 0.842);
 }
 header p {
     justify-content: center;
     background-position: center;
     display: flex;
     flex-wrap: wrap;
+    font-size: 60px;
+}
+header nav{
+    background: tomato;
 }
 header nav ul {
-    font-size: 25px;
+    font-size: 50px;
     padding: 5px 10px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     list-style: none;
+    margin: 10px 10px;
+    align-items: flex-start;
 }
 
 
 /* AboutMe */
+.AboutMe {
+    background-image: url("../images/ME.jpg");
+    background-size: cover;
+    background-position: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+}
+
+/* Projects*/
+.flex-two{
+    display: flexbox;
+    justify-content: center;
+}
+
+.flex-two h2 {
+    font-size: 50px;
+    font-style: italic;
+    text-decoration: underline;
+    justify-content: center;
+}
+
+.flex-two li {
+    display: flexbox ;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 10px 10px;
+    align-items: flex-start;
+}
 
 
 

@@ -90,41 +90,45 @@ head nav ul li {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border: solid;
+    border: solid crimson;
     max-width: 100%;
 }
+
+.works {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid navy;
+}
 .flexone {
+    width: 100%;
     border: solid gray;
-}
-.flexone img {
-    width:fit-content;
-    height: fit-content;
-}
-.flex-two{
     border:gold solid;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    max-height: fit-content;
-    max-width: fit-content;
+    justify-content: left;
 }
+.flexone img {
+    width: 100%;
+}
+.flex-two{
+    width: 100%;
+    border:rgb(165, 165, 165) solid;
+    display: flex;
+    justify-content: space-evenly;
 
+}
+.flex-two img {
+    border: solid red;
+    width: 35%;
+}
 #Work img {
     opacity: 50%;
 }
 #Work img:hover {
-    opacity: 100%;
-    
+    opacity: 100%; 
 }
-.flex-two img {
-    border: solid red;
-    width: 50%;
-    height: 50%;
-    align-self: flex-end;
-    max-height: fit-content;
-    max-width: fit-content;
-}
-
 #Reach-Out {
     border: solid;
     background-color: hotpink;

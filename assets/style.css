@@ -1,10 +1,18 @@
+* {
+    align-items: center;
+}
 body {
     background-color: aquamarine;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 /* Header + Nav */
+Header{
+    border: solid;
+}
+
 header h1 {
+    border: solid;
     justify-content: center;
     background-position: center;
     display: flex;
@@ -12,13 +20,6 @@ header h1 {
     font-size: 100px;
     font-weight: bold;
     text-decoration: underline rgba(27, 2, 117, 0.842);
-}
-header p {
-    justify-content: center;
-    background-position: center;
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 60px;
 }
 header nav{
     background: tomato;
@@ -32,46 +33,107 @@ header nav ul {
     list-style: none;
     margin: 10px 10px;
     align-items: flex-start;
+    border: solid;
+}
+head nav ul li {
+    border: solid;
 }
 
 
 /* AboutMe */
-.AboutMe {
-    background-image: url("../images/ME.jpg");
-    background-size: cover;
-    background-position: 80%;
+#AboutMe {
+    font-size: 30px;
+    padding: 20px ;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
-    background-attachment: fixed;
+    border: solid;
+    flex: 2 1 400px;
+    background-color: cornflowerblue;
+}
+#AboutMe img {
+    z-index: 0;
+    width: auto;
+    height: auto;
+    border: solid;
+    border-radius:50%;
+    width: auto;
+    max-width: 100%;
+}
+#AboutMe div{
+    height: auto;
+    width: auto;
+    
+}
+.links a {
+    border: solid red;
+}
+
+#AboutMe div {
+    border: 10px solid;
+    
 }
 
 /* Projects*/
-.flex-two{
-    display: flexbox;
-    justify-content: center;
+#Work{
+    border: solid teal;
+    width: auto;
+    max-width: 100%;
+    background-color: honeydew;
 }
 
-.flex-two h2 {
-    font-size: 50px;
+#Work h2 {
+    font-size: 75px;
     font-style: italic;
     text-decoration: underline;
-    justify-content: center;
-}
-
-.flex-two li {
-    display: flexbox ;
-    justify-content: space-evenly;
+    display: flex;
     flex-wrap: wrap;
-    list-style: none;
-    margin: 10px 10px;
-    align-items: flex-start;
+    justify-content: center;
+    border: solid;
+    max-width: 100%;
+}
+.flexone {
+    border: solid gray;
+}
+.flexone img {
+    width:fit-content;
+    height: fit-content;
+}
+.flex-two{
+    border:gold solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-height: fit-content;
+    max-width: fit-content;
 }
 
+#Work img {
+    opacity: 50%;
+}
+#Work img:hover {
+    opacity: 100%;
+    
+}
+.flex-two img {
+    border: solid red;
+    width: 50%;
+    height: 50%;
+    align-self: flex-end;
+    max-height: fit-content;
+    max-width: fit-content;
+}
 
+#Reach-Out {
+    border: solid;
+    background-color: hotpink;
+}
 
 /* Footer */
-
+footer {
+    border: solid black;
+    background-color: brown;
+}
 
 
